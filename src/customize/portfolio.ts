@@ -1,7 +1,7 @@
 import { Section, Content, Link } from './interfaces';
 
 export const intro = {
-  portfolioName: 'Your name right here!',
+  portfolioName: 'Test',
   blurb:
     "I'm a software engineer! I'm a Googler and I pushed this from my main branch! Even though my Github Pages deploys from my prod branch!",
 };
@@ -13,7 +13,7 @@ export const intro = {
 export const socialMediaLinks: Link[] = [
   {
     name: 'github',
-    url: 'https://github.com',
+    url: 'https://github.com/shamiguel',
   },
   {
     name: 'linkedIn',
@@ -48,7 +48,7 @@ export const socialMediaLinks: Link[] = [
  *  below as well as include your addition in the projectSection.
  */
 const project1: Content = {
-  name: 'Hackathon',
+  name: 'Hackathonette',
   id: 1,
   image: './assets/images/project.avif',
   position: 'string',
@@ -57,7 +57,7 @@ const project1: Content = {
 };
 
 const project2: Content = {
-  name: 'Open Source Project',
+  name: 'Open Source Project #1',
   id: 2,
   image: './assets/images/colors.avif',
   position: 'string',
@@ -66,7 +66,7 @@ const project2: Content = {
 };
 
 const project3: Content = {
-  name: 'Open Source Project',
+  name: 'Open Source Project #2',
   id: 3,
   image: './assets/images/project.avif',
   position: 'string',
